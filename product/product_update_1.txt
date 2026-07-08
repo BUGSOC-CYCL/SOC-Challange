@@ -1,0 +1,8 @@
+1. product_update_1.txt
+Release: v4.2.1
+Codename: Decoy
+Release Date: 2026-06-28
+Author: Priya Nair (Decoy Team)
+This release introduces batch export for reports, reducing average export time from 45s to 8s for datasets over 10,000 rows. Fixed a memory leak in the dashboard renderer (issue #3391) affecting long-running sessions. Updated the notification service to support per-user quiet hours. Deprecation notice: legacy API v1 endpoints will be removed in v5.0, scheduled for Q4 2026.
+Status: Shipped
+Affected modules: Reporting, Notifications, API Gateway
